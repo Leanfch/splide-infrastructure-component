@@ -1,13 +1,60 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="splide.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="splide-infrastructure.css">
     <title>Splide Infrastructure</title>
-  </head>
-  <body>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+</head>
+
+<body>
+    <section>
+        <h1>Infraestructura tecnológica</h1>
+        <ul>
+            <li>Una PC por alumno</li>
+            <li>Proyector y pantalla gigante para el desarrollo interactivo de las tutorías</li>
+            <li>Uso de la red para compartir archivos online</li>
+            <li>Acceso al laboratorio de informática para prácticas de 14 a 18 hs con reserva previa</li>
+        </ul>
+
+        <aside class="splide-infrastructure" aria-labelledby="carousel-heading">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="icon-over"><i class="fal fa-search"></i></div>
+                        <img src="https://davinci.edu.ar/uploads/images/infraestructura/cursos/01_infraestructura_carousel_small.jpg" alt="Alumna dibujando" />
+                    </li>
+                    <li class="splide__slide">
+                        <div class="icon-over"><i class="fal fa-search"></i></div>
+                        <img src="https://davinci.edu.ar/uploads/images/infraestructura/cursos/02_infraestructura_carousel_small.jpg" alt="Alumna dibujando" />
+                    </li>
+                    <li class="splide__slide">
+                        <div class="icon-over"><i class="fal fa-search"></i></div>
+                        <img src="https://davinci.edu.ar/uploads/images/infraestructura/cursos/03_infraestructura_carousel_small.jpg" alt="Alumna dibujando" />
+                    </li>
+                    <li class="splide__slide">
+                        <div class="icon-over"><i class="fal fa-search"></i></div>
+                        <img src="https://davinci.edu.ar/uploads/images/infraestructura/cursos/04_infraestructura_carousel_small.jpg" alt="Presentación" />
+                    </li>
+                    <li class="splide__slide">
+                        <div class="icon-over"><i class="fal fa-search"></i></div>
+                        <img src="https://davinci.edu.ar/uploads/images/infraestructura/cursos/05_infraestructura_carousel_small.jpg" alt="Presentación" />
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </section>
+    <script src="splide.min.js"></script>
+    <script src="splide-infrastructure.js"></script>
+</body>
+
 </html>

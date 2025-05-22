@@ -1,18 +1,14 @@
-var splide = new Splide( '.splide-infrastructure', {
+var splide = new Splide(".splide-infrastructure", {
   perPage: 3,
-  gap    : '2rem',
+  arrows: false,
   breakpoints: {
-    640: {
+    800: {
       perPage: 2,
-      gap    : '.7rem',
-      height : '6rem',
     },
     480: {
       perPage: 1,
-      gap    : '.7rem',
-      height : '6rem',
     },
   },
-} );
+});
 
 splide.mount();
